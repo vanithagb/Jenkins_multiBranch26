@@ -7,4 +7,5 @@ node('master')
     stage('Continuous Build_master') 
 	{
     sh label: '', script: 'mvn package'
+    }
 }
